@@ -13,6 +13,30 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+### `npm run make`
+
+```
+# Generate a single-use component
+npm run generate page <name>
+# Generate page called Home
+npm run generate page Home
+
+# Generate a reusable component
+npm run generate component <name>
+# Generate a component called DogCard
+npm run generate component DogCard
+
+# Generate a custom hook
+npm run generate hook <name>
+# Generate a hook called useAsync
+npm run generate hook useAsync
+
+# Generate a context
+npm run generate context <name>
+# Generate a context called AuthContext
+# Generate a hook called useAuthContext
+npm run generate context AuthContext
+```
 
 ### `npm test`
 
